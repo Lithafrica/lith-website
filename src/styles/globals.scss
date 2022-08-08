@@ -1,0 +1,16 @@
+:root {
+    font-size: 16px;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "animation";
+@import "typo";
+
+.pswp img {
+    max-width: none;
+    object-fit: contain;
+}
+.pswp__caption__center{
+    max-width: 600px !important;
+}
