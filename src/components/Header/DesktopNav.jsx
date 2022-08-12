@@ -22,7 +22,7 @@ export function DesktopNav(props) {
             // p={2}
             href={navItem.link ?? "#"}
             fontSize={"sm"}
-            fontWeight={500}
+            fontWeight={"bold"}
             color={useColorModeValue("gray.800", "gray.200")}
             // _hover={{
             //   textDecoration: "none",
