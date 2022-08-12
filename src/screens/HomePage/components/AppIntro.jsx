@@ -13,7 +13,7 @@ function AppIntro() {
       <Box
         position={"absolute"}
         top={0}
-        w={{ base: "100%", lg: "50%" }}
+        w={{ base: "100%", lg: "43%" }}
         h={"100%"}
         zIndex={5}
         right={0}
@@ -43,8 +43,16 @@ function AppIntro() {
                 fontFamily={"heading"}
                 color={"white"}
               >
-                The <TextUnderline>App</TextUnderline> Designed <br />
-                for People Seeking <TextUnderline>Help</TextUnderline>.
+                The{" "}
+                <Text as={"span"} color={"brand100"}>
+                  App
+                </Text>{" "}
+                Designed <br />
+                for People Seeking{" "}
+                <Text as={"span"} color={"brand100"}>
+                  Help
+                </Text>
+                .
               </Text>
               <Text fontSize="lg" color={"brandGray"} py={"24px"}>
                 Lith provides a centralized platform for solving problems such

@@ -32,7 +32,7 @@ function Blog() {
   return (
     <BaseContainer px={{ base: "24px", xl: "18px" }} py={"60px"}>
       <FadeInAnimation>
-        <Text color={"brandGray"}>BLOG</Text>
+        <Text fontSize={"25px"}>Research</Text>
         <Flex
           flexDirection={{ base: "column", lg: "row" }}
           justifyContent={{ lg: "space-evenly", xl: "space-between" }}

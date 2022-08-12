@@ -94,11 +94,17 @@ function Footer() {
             <Box>
               <Text fontSize={"md"}>Follow us</Text>
               <Stack direction={"row"} spacing={6} mt={"8px"} mb={"34px"}>
-                <SocialButton label={"Instagram"} href={"#"}>
+                <SocialButton
+                  label={"Instagram"}
+                  href={"https://www.instagram.com/tell_lith/"}
+                >
                   <FaInstagram />
                 </SocialButton>
 
-                <SocialButton label={"Facebook"} href={"#"}>
+                <SocialButton
+                  label={"Facebook"}
+                  href={"https://www.facebook.com/TellLith/"}
+                >
                   <FaFacebook />
                 </SocialButton>
                 <SocialButton label={"Twitter"} href={"#"}>

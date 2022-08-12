@@ -36,36 +36,29 @@ function Banner() {
             >
               <h1 className="text-white">
                 LITH, the{" "}
-                <TextUnderline
-                  lineColor={"green.900"}
-                  as={"span"}
-                  color={"green.300"}
-                >
+                <Text as={"span"} color={"brand100"}>
                   positive{" "}
-                </TextUnderline>
+                </Text>
                 best friend that fits into your hands
-                <TextUnderline
-                  lineColor={"green.900"}
-                  as={"span"}
-                  color={"green.300"}
-                >
+                <Text as={"span"} color={"brand100"}>
                   {" "}
                   everywhere{" "}
-                </TextUnderline>
+                </Text>
                 you go.
               </h1>
             </Text>
-            <Text fontSize="lg" color={"gray.200"} py="20px">
+            <Text fontSize="lg" color={"gray.200"} pb={34} pt="20px">
               We are building resilience in African university students and we
               are helping them reach their highest potentials.
             </Text>
             <Box
-              as={"button"}
+              href={"#DownloadSection"}
+              as={"a"}
               color={"white"}
               bg={"#0e5141"}
               py={"3"}
               px={"6"}
-              mt={"24px"}
+              mt={"34px"}
             >
               Download LITH Now
             </Box>

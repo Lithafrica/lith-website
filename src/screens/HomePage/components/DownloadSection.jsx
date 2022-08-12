@@ -7,11 +7,16 @@ import { AppImage } from "@/components/AppImage";
 
 function DownloadSection() {
   return (
-    <Box position={"relative"} bg={"gray.900"} mt={"45px"}>
+    <Box
+      id={"DownloadSection"}
+      position={"relative"}
+      bg={"gray.900"}
+      mt={"45px"}
+    >
       <Box
         position={"absolute"}
         top={0}
-        w={{ base: "100%", lg: "50%" }}
+        w={{ base: "100%", lg: "43%" }}
         h={"100%"}
         zIndex={5}
         left={0}
@@ -30,38 +35,41 @@ function DownloadSection() {
           flexDirection={"row-reverse"}
           alignItems={"center"}
           ml={"auto"}
-          py={{base:'52px', md:'auto'}}
+          py={{ base: "52px", md: "auto" }}
           px={{ base: "24px", xl: "18px" }}
         >
           <Box maxWidth={"600px"} w={"100%"}>
             <FadeInAnimation>
-              <Text fontSize={{ base: "3xl", md: "4xl" }}
+              <Text
+                fontSize={{ base: "3xl", md: "4xl" }}
                 fontWeight="500"
                 fontFamily={"heading"}
                 color={"white"}
               >
-                  Start Your{" "}
-                  <Box as={"span"} color={"#48BB78"}>
-                    Journey
-                  </Box>{" "}
-                  to optimal wellness
-                  <Box as={"span"} color={"#48BB78"}>
-                    {" "}
-                    with LITH
-                  </Box><br/>
+                Start Your{" "}
+                <Box as={"span"} color={"#48BB78"}>
+                  Journey
+                </Box>{" "}
+                to optimal wellness
+                <Box as={"span"} color={"#48BB78"}>
                   {" "}
-                  <Box as={"span"} color={"#48BB78"}>
-                    Take{" "}
-                  </Box>{" "}
-                  an Assessment<br/>
-                  Connect to{" "}
-                  <Box as={"span"} color={"#48BB78"}>
-                    a therapist<br/>
-                  </Box>
-                  <Box as={"span"} color={"#48BB78"}>
-                    Join{" "}
-                  </Box>
-                  a Support Community
+                  with LITH
+                </Box>
+                <br />{" "}
+                <Box as={"span"} color={"#48BB78"}>
+                  Take{" "}
+                </Box>{" "}
+                an Assessment
+                <br />
+                Connect to{" "}
+                <Box as={"span"} color={"#48BB78"}>
+                  a therapist
+                  <br />
+                </Box>
+                <Box as={"span"} color={"#48BB78"}>
+                  Join{" "}
+                </Box>
+                a Support Community
               </Text>
               <Text fontSize="lg" color={"brandGray"} py={"24px"}>
                 You’re allowed to be human. Download LITH now and let’s
