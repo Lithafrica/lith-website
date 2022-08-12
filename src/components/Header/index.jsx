@@ -86,9 +86,9 @@ export default function Header() {
               aria-label={"Toggle Navigation"}
             />
           </Stack>
-          <MobileNav isOpen={isMobileNavOpen} />
         </BaseContainer>
       </Flex>
+      <MobileNav isOpen={isMobileNavOpen} />
     </Box>
   );
 }

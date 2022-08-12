@@ -23,16 +23,9 @@ export const MobileNav = ({ isOpen }) => {
       zIndex={9999}
       pos="fixed"
       top="60px"
-      w={"full"}
-      bg={"white"}
+      bg={useColorModeValue("rgba(255, 255, 255, 1)", "rgba(26, 32, 44, 1)")}
       minH={"calc(100vh - 60px)"}
-      css={{
-        backdropFilter: "saturate(180%) blur(5px)",
-        backgroundColor: useColorModeValue(
-          "rgba(255, 255, 255, 0.8)",
-          "rgba(26, 32, 44, 0.8)"
-        ),
-      }}
+      w={"100vw"}
     >
       {NAV_ITEMS.map((navItem) => (
         <MobileNavItem key={navItem.label} href={navItem.link} {...navItem} />
