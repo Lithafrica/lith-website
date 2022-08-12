@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Box } from "@chakra-ui/react";
 
-function LinkButton({ href, label, color }) {
+function LinkButton({ href, label, color, ...rest }) {
   return (
     <Link href={href}>
       <a>
@@ -19,6 +19,7 @@ function LinkButton({ href, label, color }) {
           className="pt-3 pb-2 link w-fit"
           _hover={{ backgroundSize: "100%" }}
           color={color || ""}
+          {...rest}
         >
           {label}
         </Box>

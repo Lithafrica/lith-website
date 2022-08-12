@@ -9,7 +9,6 @@ export function FeaturesScreen(props) {
     return (
         <>
         <PageHeader image={'/images/howitworks.jpg'} introHead={'The IDea Behind Lith'} introBody={'Lith uses a centralized technology system to solve problems such as major depressive disorder, anxiety, eating disorders, and self-image issues in University students.'}/>
-
             <BaseContainer
                 px={['8px', '16px', '2%']}
                 py={'75px'}>

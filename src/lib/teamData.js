@@ -3,7 +3,7 @@ export const Teams = [
         name : 'Lindiwe Mutungamiri',
         role : 'Lindiwe Mutungamiri',
         img : '/images/t1.jpg',
-        about : 'Lindiwe Mutungamiri is the co-founder of Lith and a second year Computer Science undergraduate at Ashesi University, where she develops and leads computer science and entrepreneurship-based projects. She describes herself as a creative disruptor and an innovative entrepreneur. '
+        about : 'Lindiwe Mutungamiri is the co-founder of Lith and a Product and Marketing Analyst at El-Parah Consult, where she manages product development and the onboarding of new clients. She describes herself as a creative disruptor and an innovative entrepreneur on a mission to create new and effective systems in the world. Lindiwe graduated from Ashesi University in 2022 with a BSc in Computer Science where she won several awards including the Ubora Rising Star Award and the Ustun Volleyball MVP Award. She has worked as a Business Strategy Analyst Intern with Stanbic Investment Management Services and worked as a Research Analyst Intern with the Baobab Platform under the MasterCard Foundation. She also served as a Junior Board of Directors Member of the 30-years-old Melton Foundation. When she is not trying to find innovative ways to solve problems, she can be found playing Volleyball, studying philosophy, reading a good book, or travelling to new places. '
     },
     {
         name : 'Jewel Thompson',
