@@ -19,15 +19,10 @@ export function DesktopNav(props) {
             backgroundSize={isActive(navItem.link) ? "50%" : "0%"}
             backgroundColor={"#48BB78"}
             key={navItem.link}
-            // p={2}
             href={navItem.link ?? "#"}
             fontSize={"sm"}
             fontWeight={"bold"}
             color={useColorModeValue("gray.800", "gray.200")}
-            // _hover={{
-            //   textDecoration: "none",
-            //   color: useColorModeValue("gray.800", "white"),
-            // }}
           />
         );
       })}

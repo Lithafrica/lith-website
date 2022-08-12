@@ -1,6 +1,4 @@
-import { SyntheticEvent } from "react";
 import {
-  Box,
   Collapse,
   Flex,
   Icon,
