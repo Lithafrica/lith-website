@@ -15,7 +15,7 @@ export function FeaturesScreen(props) {
           "Lith uses a centralized technology system to solve problems such as major depressive disorder, anxiety, eating disorders, and self-image issues in University students."
         }
       />
-      <BaseContainer px={["8px", "16px", "2%"]} py={"75px"}>
+      <BaseContainer px={["18px", "16px", "2%"]} py={"75px"}>
         <FadeInAnimation>
           <Text fontSize="4xl" fontFamily={"heading"} fontWeight={"500"}>
             Curbing depression in African University students

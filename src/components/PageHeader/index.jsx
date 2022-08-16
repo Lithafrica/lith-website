@@ -22,7 +22,7 @@ function PageHeader({
         />
       </Box>
 
-      <BaseContainer px={["8px", "16px", "2%"]}>
+      <BaseContainer px={["18px", "16px", "2%"]}>
         <Flex
           w={{ base: "100%", lg: "72%", xl: "56%" }}
           h={"100%"}
