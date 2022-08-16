@@ -10,7 +10,7 @@ export const HomePageScreen = () => {
       <Banner />
       <HomeIntro />
       <AppIntro />
-      <Blog />
+      {/*<Blog />*/}
       <DownloadSection />
     </>
   );

@@ -11,7 +11,7 @@ function DownloadSection() {
       id={"DownloadSection"}
       position={"relative"}
       bg={"gray.900"}
-      mt={"45px"}
+      // mt={"45px"}
     >
       <Box
         position={"absolute"}
