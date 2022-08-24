@@ -55,11 +55,11 @@ function AppIntro() {
                 .
               </Text>
               <Text fontSize="lg" color={"brandGray"} py={"24px"}>
-                Lith provides a centralized platform for solving problems such
+                LITH provides a centralized platform for solving problems such
                 as major depressive disorder, anxiety, eating disorders, and
                 self-image issues in University students. If you have no time to
                 go for your counselling session or you’re in too much distress,
-                you can use Lith to reach a therapist anytime, anywhere.
+                you can use LITH to reach a therapist anytime, anywhere.
               </Text>
               <LinkButton
                 href={Routes.features}

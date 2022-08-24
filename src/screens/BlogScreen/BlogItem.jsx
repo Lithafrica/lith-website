@@ -17,7 +17,7 @@ function BlogItem({item}) {
                     <AppImage src={'/images/blog2.webp'} h={'400px'} w={'50%'} flexGrow={'0'}/>
                     <Box pl={'50px'} maxW={'550px'}>
                         <Text fontFamily={'heading'} fontWeight={'500'} my={'22px'} fontSize={'2xl'}>
-                            Lith's top tips for managing exam and assignment stress and anxiety
+                            LITH's top tips for managing exam and assignment stress and anxiety
                         </Text>
                         <Text fontFamily={'body'} fontWeight={'500'} my={'20px'}>
                             Sleep anxiety is the feeling of worry, nervousness,

@@ -10,9 +10,9 @@ export function FeaturesScreen(props) {
     <>
       <PageHeader
         image={Assets.howItWorks}
-        introHead={"The Idea Behind Lith"}
+        introHead={"The Idea Behind LITH"}
         introBody={
-          "Lith uses a centralized technology system to solve problems such as major depressive disorder, anxiety, eating disorders, and self-image issues in University students."
+          "LITH uses a centralized technology system to solve problems such as major depressive disorder, anxiety, eating disorders, and self-image issues in University students."
         }
       />
       <BaseContainer px={["18px", "16px", "2%"]} py={"75px"}>
@@ -28,9 +28,9 @@ export function FeaturesScreen(props) {
             help improve the overall mental well-being of the user.
           </Text>
           <Text fontSize={"md"} mt="7" mb={"20px"}>
-            Lith is also using the social network concept to boost personal
+            LITH is also using the social network concept to boost personal
             growth and to make it more centralized to solve mental health
-            issues. Unlike any other mental health apps, Lith has support groups
+            issues. Unlike any other mental health apps, LITH has support groups
             moderated by our A.I systems to provide maximum support for the
             student’s mental health.
           </Text>

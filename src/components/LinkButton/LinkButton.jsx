@@ -10,10 +10,10 @@ function LinkButton({
   color = "",
   ...rest
 }) {
-  return (
-    <Link href={href}>
-      <a>
-        <Box
+
+  const Component = () => {
+    return  <a>
+      <Box
           backgroundPosition={"0 bottom, 0 bottom"}
           backgroundSize={backgroundSize}
           as={"span"}
@@ -24,12 +24,17 @@ function LinkButton({
           _hover={{ backgroundSize: "100%" }}
           color={color}
           {...rest}
-        >
-          {label}
-        </Box>
-      </a>
-    </Link>
-  );
+      >
+        {label}
+      </Box>
+    </a>
+  }
+
+  return href ? ( <Link href={href}>
+    <a>
+      <Component/>
+    </a>
+  </Link>)  :  (<Component/>)
 }
 
 export default LinkButton;

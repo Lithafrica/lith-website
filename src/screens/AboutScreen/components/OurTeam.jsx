@@ -42,7 +42,10 @@ function OurTeam() {
       >
         {Teams.map((item, index) => (
           <Box
-            onClick={() => setIndex(index)}
+            onClick={(e) => {
+                e.preventDefault()
+                setIndex(index)
+            }}
             position={"relative"}
             overflow={"hidden"}
             key={index}

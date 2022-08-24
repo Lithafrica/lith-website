@@ -45,7 +45,7 @@ function AboutIntro() {
                 <Text fontSize={"md"} mt="7" mb={"20px"}>
                   The system issues push notifications to suggest behavioural
                   changes, activities, and positive messaging to help improve
-                  the overall mental well-being of the user. Lith is also using
+                  the overall mental well-being of the user. LITH is also using
                   the social network concept to boost personal growth and to
                   make it more centralized to solve mental health issues.
                 </Text>
@@ -55,7 +55,7 @@ function AboutIntro() {
                   The app is equipped with licenced therapists that are
                   available for the students to chat with in the event the
                   student needs an additional layer of support. Unlike any other
-                  mental health apps, Lith has support groups moderated by our
+                  mental health apps, LITH has support groups moderated by our
                   A.I systems to provide maximum support for the student’s
                   mental health.
                 </Text>

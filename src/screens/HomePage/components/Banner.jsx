@@ -9,6 +9,7 @@ import { Assets } from "@/lib";
 function Banner() {
   return (
     <Box position={"relative"}>
+      <Box zIndex={'6'} right={'80px'} position={'absolute'}  ml={'auto'}  bottom={"-150px"} as={'img'} src={Assets.fastCompany} h={'300px'} width={'300px'}/>
       <Box position={"absolute"} inset={0} zIndex={5}>
         <AppImage
           objectPosition={{ base: "50% 50%", md: "0% 0%" }}

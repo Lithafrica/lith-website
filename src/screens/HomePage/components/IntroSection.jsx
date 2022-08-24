@@ -4,31 +4,36 @@ import { FadeInAnimation } from "@/components/FadeInAnimation";
 import { AppImage } from "@/components/AppImage";
 import { LinkButton } from "@/components/LinkButton";
 import { BaseContainer } from "@/components/BaseContainer";
-import { Routes } from "@/lib";
+import { Routes ,Assets } from "@/lib";
 
 function HomeIntro() {
   return (
     <BaseContainer px={{ base: "24px", xl: "18px" }} py={"75px"}>
       <FadeInAnimation>
-        <Text
-          fontSize={{ base: "3xl", md: "4xl" }}
-          fontFamily={"heading"}
-          fontWeight={"500"}
-        >
-          Changing the Face of Mental Health in Africa
-        </Text>
-        <Text
-          maxW={{ base: "100%", lg: "80%" }}
-          fontSize={"lg"}
-          mt="7"
-          mb={"20px"}
-        >
-          We’re on a mission to change the face of mental health in Africa. Our
-          work is inspired by the satisfaction we get from empowering
-          individuals and positively impacting lives. We want to centralize the
-          focus back to the individual, giving the student the chance to monitor
-          his/her own life.
-        </Text>
+        <Flex>
+           <Box>
+             <Text
+                 fontSize={{ base: "3xl", md: "4xl" }}
+                 fontFamily={"heading"}
+                 fontWeight={"500"}
+             >
+               Changing the Face of Mental Health in Africa
+             </Text>
+             <Text
+                 maxW={{ base: "100%", lg: "80%" }}
+                 fontSize={"lg"}
+                 mt="7"
+                 mb={"20px"}
+             >
+               We’re on a mission to change the face of mental health in Africa. Our
+               work is inspired by the satisfaction we get from empowering
+               individuals and positively impacting lives. We want to centralize the
+               focus back to the individual, giving the student the chance to monitor
+               his/her own life.
+             </Text>
+           </Box>
+        </Flex>
+
       </FadeInAnimation>
       <FadeInAnimation>
         <Flex

@@ -24,7 +24,7 @@ const features = [
     {
         image: '/images/feature.webp',
         title: 'Resources to Help',
-        desc: ' Lith offers a wide range of courses, guided meditations, sleep aids, and other resources to help you improve your emotional health .',
+        desc: ' LITH offers a wide range of courses, guided meditations, sleep aids, and other resources to help you improve your emotional health .',
     },
 ]
 

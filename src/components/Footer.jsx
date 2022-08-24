@@ -71,11 +71,12 @@ function Footer() {
                 </Box>
                 <br></br>
                 <Box as={"span"}>
-                  l1 University Avenue Berekuso, Eastern Region Ghana
+                  1 University Avenue<br/>
+                  Berekuso, Eastern Region<br/>
+                  Ghana
                 </Box>
               </Text>
             </Box>
-
             <Box>
               <Text fontSize={"lg"}>Links</Text>
               <VStack alignItems={"start"} mt={"14px"} spacing="18px">

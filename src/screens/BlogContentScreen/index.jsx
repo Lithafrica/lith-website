@@ -8,7 +8,7 @@ function BlogContent() {
         <Box maxWidth={'1200px'}  mx={'auto'} mt={'65px'}>
           <AppImage src={'/images/blog2.webp'} h={'400px'} w={'100%'}/>
           <Box mx={{base:'24px', lg:'auto'}}>
-            <Text fontSize={'4xl'} mt={'25px'} mb={'45px'}>Lith's top tips for managing exam and assignment stress and anxiety</Text>
+            <Text fontSize={'4xl'} mt={'25px'} mb={'45px'}>LITH's top tips for managing exam and assignment stress and anxiety</Text>
               <Text>
                   Sleep anxiety is the feeling of worry, nervousness,
                   or unease associated with normal anxiety,

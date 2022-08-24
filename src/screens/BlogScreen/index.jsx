@@ -13,7 +13,7 @@ const  blogData=[
         desc: `The purpose of therapy is to help you become your own parent—journaling helps you do that.`,
     },
     {
-        title: `Lith's top tips for managing exam and assignment stress and anxiety`,
+        title: `LITH's top tips for managing exam and assignment stress and anxiety`,
         name: `Jeanette Galan`,
         image: '/images/bl1.png',
         date: 'Sep 22, 2020 2 min read',
