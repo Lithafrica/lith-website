@@ -61,7 +61,7 @@ function OurTeam() {
                 pb={"20px"}
                 color={"white"}
               >
-                <Box>
+                <Box cursor={'pointer'}>
                   <Text
                     my={"6px"}
                     fontSize="23px"
