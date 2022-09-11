@@ -20,9 +20,6 @@ function OurTeam() {
   const [index, setIndex] = useState(null);
   const [open, setOpen] = useState(false);
 
-  useEffect(() => {
-    if (!open && index !== null) setOpen(true);
-  }, [index]);
 
   return (
     <BaseContainer my={"100px"}>
@@ -37,7 +34,7 @@ function OurTeam() {
       </Text>
       <div
         className={
-          "grid gap-x-10 gap-y-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3"
+          "mx-6 grid gap-x-1 xl:gap-x-10 gap-y-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
         }
       >
         {Teams.map((item, index) => (
@@ -45,6 +42,7 @@ function OurTeam() {
             onClick={(e) => {
                 e.preventDefault()
                 setIndex(index)
+                setOpen(true)
             }}
             position={"relative"}
             overflow={"hidden"}
@@ -86,7 +84,9 @@ function OurTeam() {
       <PhotoSwipe
         container={container}
         onIndexChange={setIndex}
-        onOpenChange={setOpen}
+        onOpenChange={(isOpen) => {
+            setOpen(isOpen)
+        }}
         index={index}
         open={open}
         theme={{
