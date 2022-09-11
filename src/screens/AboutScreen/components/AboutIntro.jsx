@@ -9,10 +9,10 @@ const CONFETTI_DARK = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2
 function AboutIntro() {
   return (
     <Box
-      css={{
-        backgroundImage: useColorModeValue(CONFETTI_LIGHT, CONFETTI_DARK),
-        backgroundAttachment: "fixed",
-      }}
+      // css={{
+      //   backgroundImage: useColorModeValue(CONFETTI_LIGHT, CONFETTI_DARK),
+      //   backgroundAttachment: "fixed",
+      // }}
     >
       <BaseContainer px={{ base: "24px", xl: "18px" }}>
         <FadeInAnimation>

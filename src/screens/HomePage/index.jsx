@@ -17,7 +17,7 @@ export const HomePageScreen = () => {
       {/*<Blog />*/}
       <DownloadSection />
         <BaseContainer mt={'100px'}>
-            <Box zIndex={'6'} as={'img'} src={Assets.fastCompany} h={'300px'} width={'300px'}/>
+            <Box mx={'auto'} zIndex={'6'} as={'img'} src={Assets.fastCompany} h={'300px'} width={'300px'}/>
         </BaseContainer>
     </>
   );
