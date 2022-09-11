@@ -6,6 +6,7 @@ import { BaseContainer } from "@/components/BaseContainer";
 import { PhotoSwipe } from "react-pswp";
 import "react-pswp/dist/index.css";
 import { Teams } from "@/lib/teamData";
+import { AspectRatio } from '@chakra-ui/react'
 
 const container = Teams.map((el, i) => ({
   uid: i,
@@ -34,51 +35,55 @@ function OurTeam() {
       </Text>
       <div
         className={
-          "mx-6 grid gap-x-1 xl:gap-x-10 gap-y-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+          "mx-6 grid gap-x-1 xl:gap-x-10 gap-y-10 grid-cols-2 lg:grid-cols-3"
         }
       >
         {Teams.map((item, index) => (
-          <Box
-            onClick={(e) => {
-                e.preventDefault()
-                setIndex(index)
-                setOpen(true)
-            }}
-            position={"relative"}
-            overflow={"hidden"}
-            key={index}
-          >
-            <Box inset={"0"} position={"absolute"}>
-              <AppImage h={"full"} w={"full"} src={item.img} />
-            </Box>
-            <Flex alignItems={"end"} position={"relative"} minH={"559px"}>
-              <Box
-                width={"100%"}
-                backgroundColor={"#2b2c2ebf"}
-                px={"22px"}
-                pb={"20px"}
-                color={"white"}
-              >
-                <Box cursor={'pointer'}>
-                  <Text
-                    my={"6px"}
-                    fontSize="23px"
-                    fontFamily={"heading"}
-                    fontWeight={"500"}
-                  >
-                    {item.name}
-                  </Text>
-                  <Flex mb={"6px"} justifyContent={"space-between"}>
-                    <LinkButton
-                      href={""}
-                      label={item.role}
-                      backgroundColor={"#48BB78"}
-                    />
-                  </Flex>
+            <AspectRatio    ratio={4 / 5} >
+                <Box
+                    onClick={(e) => {
+                        e.preventDefault()
+                        setIndex(index)
+                        setOpen(true)
+                    }}
+                    position={"relative"}
+                    overflow={"hidden"}
+                    key={index}
+                    h={"full"} w={"full"}
+                >
+                    <Box inset={"0"} position={"absolute"}>
+                        <AppImage h={"full"} w={"full"} src={item.img} />
+                    </Box>
+                    <Flex w={"full"} h={"full"} alignItems={"end"} position={"relative"}>
+                        <Box
+                            width={"100%"}
+                            backgroundColor={"#2b2c2ebf"}
+                            px={"22px"}
+                            pb={"20px"}
+                            color={"white"}
+                        >
+                            <Box cursor={'pointer'}>
+                                <Text
+                                    my={"6px"}
+                                    fontSize={['16px' , "23px"]}
+                                    fontFamily={"heading"}
+                                    fontWeight={"500"}
+                                >
+                                    {item.name}
+                                </Text>
+                                <Flex mb={"6px"} justifyContent={"space-between"}>
+                                    <LinkButton
+                                        href={""}
+                                        label={item.role}
+                                        backgroundColor={"#48BB78"}
+                                    />
+                                </Flex>
+                            </Box>
+                        </Box>
+                    </Flex>
                 </Box>
-              </Box>
-            </Flex>
-          </Box>
+            </AspectRatio>
+
         ))}
       </div>
       <PhotoSwipe
