@@ -8,17 +8,18 @@ export default function SectionItem({item}) {
     return <Box>
         <FadeInAnimation>
             <Flex
-                flexDirection={["column", null, reverse ? "row-reverse" : 'row']}
-
+                flexDirection={["column", null , null, reverse ? "row-reverse" : 'row']}
                 py={"15px"}
                 alignItems={'center'}
             >
 
-                <Box>
+                <Box paddingLeft={{lg : reverse ? '12px' : '0px'}}>
                     <Text textAlign={'center'}  fontFamily={"heading"} fontWeight={"500"} my={"22px"} fontSize={'4xl'}>{title}</Text>
                     <Text fontFamily={"body"} fontWeight={"500"} textAlign={'left'} >{desc}</Text>
                 </Box>
-                <AppImage minHeight={"500px"} src={image} h={"100%"} w={"100%"} objectFit={'contain'}/>
+                <AppImage
+                    objectPosition={{base : 'center' , lg : reverse ? 'left' : 'right'}}
+                    minHeight={"500px"} src={image} h={"100%"} w={"100%"} objectFit={'contain'}/>
             </Flex>
         </FadeInAnimation>
 

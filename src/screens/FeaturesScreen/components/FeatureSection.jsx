@@ -6,7 +6,7 @@ import SectionItem from './SectionItem'
 
 const features = [
     {
-        image: '/images/feature.webp',
+        image: '/images/app1.svg',
         title: 'Find a Therapist',
         desc: ' In need of a Reputable Therapist but not sure where to \n' +
             '                            find one or who to ask for a recommendation. \n' +
@@ -16,15 +16,15 @@ const features = [
 
     },
     {
-        image: '/images/feature.webp',
+        image: '/images/app2.svg',
         title: 'Regular Mental Health Reports',
         desc: 'By answering questions and recording your mood, you\'ll receive regular mental health reports detailing your symptoms and providing a synopsis of your emotional state.',
         reverse : true,
     },
     {
-        image: '/images/feature.webp',
+        image: '/images/app3.svg',
         title: 'Resources to Help',
-        desc: ' LITH offers a wide range of courses, guided meditations, sleep aids, and other resources to help you improve your emotional health .',
+        desc: 'LITH offers a wide range of recommended activities, guided meditations, sleep aids, and other resources to help you improve your overall well-being. \n',
     },
 ]
 
