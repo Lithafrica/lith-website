@@ -83,20 +83,25 @@ function DownloadSection() {
                 px={"6"}
                 mt={"24px"}
                 mr={"20px"}
+                maxWidth={"240px"}
               >
-                Download For iOS
+                <a
+                  download={"Lith.apk"}
+                  href={"https://lithafrica.com/Lith.apk"}
+                >
+                  Download For Android
+                </a>
               </Box>
-
-              <Box
-                as={"button"}
-                color={"white"}
-                bg={"#0e5141"}
-                py={"3"}
-                px={"6"}
-                mt={"24px"}
-              >
-                Download For Android
-              </Box>
+              {/*<Box*/}
+              {/*  as={"button"}*/}
+              {/*  color={"white"}*/}
+              {/*  bg={"#0e5141"}*/}
+              {/*  py={"3"}*/}
+              {/*  px={"6"}*/}
+              {/*  mt={"24px"}*/}
+              {/*>*/}
+              {/*  Download For Android*/}
+              {/*</Box>*/}
             </FadeInAnimation>
           </Box>
         </Flex>

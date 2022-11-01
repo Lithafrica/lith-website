@@ -119,18 +119,23 @@ function Footer() {
                 Start Your Journey to optimal wellness with Lith
               </Box>
               <Stack direction={"row"} spacing={8} mt={"18px"}>
-                <AppImage
-                  src={"/images/AppStore.png"}
-                  w={"100%"}
-                  h={"50px"}
-                  objectFit={"contain"}
-                />
-                <AppImage
-                  src={"/images/androidDownload.png"}
-                  w={"100%"}
-                  h={"50px"}
-                  objectFit={"contain"}
-                />
+                {/*<AppImage*/}
+                {/*  src={"/images/AppStore.png"}*/}
+                {/*  w={"100%"}*/}
+                {/*  h={"50px"}*/}
+                {/*  objectFit={"contain"}*/}
+                {/*/>*/}
+                <a
+                  download={"Lith.apk"}
+                  href={"https://lithafrica.com/Lith.apk"}
+                >
+                  <AppImage
+                    src={"/images/androidDownload.png"}
+                    w={"100%"}
+                    h={"50px"}
+                    objectFit={"contain"}
+                  />
+                </a>
               </Stack>
             </Box>
           </Flex>
